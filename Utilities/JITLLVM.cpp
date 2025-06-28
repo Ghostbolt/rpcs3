@@ -49,7 +49,7 @@ LOG_CHANNEL(jit_log, "JIT");
 #ifdef ARCH_ARM64
 #include "Emu/CPU/Backends/AArch64/AArch64Common.h"
 #endif
-
+//jit_initialize meth
 const bool jit_initialize = []() -> bool
 {
 	llvm::InitializeNativeTarget();
